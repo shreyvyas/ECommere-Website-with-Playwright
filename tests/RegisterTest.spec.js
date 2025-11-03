@@ -19,7 +19,7 @@ test('New User Registration', async ({ page }) => {
 
     await homePage.clickOnRegister();
 
-    const username = await registerPage.registerUser();  // 👈 only once
+    const username = await registerPage.registerUser();  
 
     console.log(`✅ New user registered: ${username}`);
 
