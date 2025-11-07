@@ -21,6 +21,6 @@ test('New User Registration', async ({ page }) => {
 
     const username = await registerPage.registerUser();  
 
-    console.log(`✅ New user registered: ${username}`);
+    console.log(`New user registered: ${username}`);
 
 });
