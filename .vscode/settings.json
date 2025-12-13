@@ -1,0 +1,8 @@
+{
+  "mcp.servers": {
+    "filesystem": {
+      "command": "mcp-server-filesystem",
+      "args": ["D:/VSCodeWorkspace/QKart_Playwright"],
+    }
+  }
+}
